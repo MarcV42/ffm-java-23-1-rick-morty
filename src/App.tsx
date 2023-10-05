@@ -7,6 +7,7 @@ function App() {
 
     const [characters, setCharacters] = useState<Character[]>(charactersResponse.results)
 
+
     return (
         <>
             <CharacterGallery  characters={characters}/>
